@@ -9,6 +9,11 @@ tsc
 
 ## `index.d.ts`
 
+Both `regex` and `partial` are _overloaded functions_ – we can call them two different ways:
+
+* As template literals (`templateStrings` + `substitutions`)
+* As functions
+
 ```ts
 export declare function regex(
   flags: string
